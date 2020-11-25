@@ -1,5 +1,8 @@
 import React from "react";
+import EditableDiv from "./components/EditableDiv";
 
-const Editor = () => <div>hello from editor</div>;
+const Editor = () => {
+  return <EditableDiv initialContent="<p>hello</p>"/>;
+};
 
 export default Editor;
