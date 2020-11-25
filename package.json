@@ -1,0 +1,43 @@
+{
+  "name": "richtext-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.jsx",
+  "scripts": {
+    "serve": "snowpack dev",
+    "build": "tsc -p lib-tsconfig.json",
+    "lint": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Repugraf/richtext-editor.git"
+  },
+  "author": "Serhii Mamedov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Repugraf/richtext-editor/issues"
+  },
+  "homepage": "https://github.com/Repugraf/richtext-editor#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.4",
+    "@snowpack/plugin-react-refresh": "^2.3.7",
+    "@snowpack/plugin-sass": "^1.1.1",
+    "@snowpack/plugin-typescript": "^1.1.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/snowpack-env": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "snowpack": "^2.17.1",
+    "typescript": "^4.1.2",
+    "watch": "^1.0.2"
+  }
+}

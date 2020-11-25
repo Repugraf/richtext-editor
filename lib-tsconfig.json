@@ -1,0 +1,16 @@
+{
+  "include": ["src/lib"],
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "ES2017",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDir": "./src/lib",
+    "outDir": "./dist",
+    "types": []
+  }
+}
