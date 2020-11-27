@@ -1,14 +1,18 @@
 import React from "react";
-import EditableDiv from "./components/EditableDiv";
+import EditorWrapper from "./components/EditorWrapper";
 import EditorToolbar from "./components/EditorToolbar";
 
-const Editor = () => {
+interface Props {
+  initialContent?: string;
+}
+
+const EditorContainer = ({ initialContent }: Props) => {
   return (
     <>
       <EditorToolbar />
-      <EditableDiv initialContent="<p>hello</p>" />
+      <EditorWrapper initialContent={initialContent} />
     </>
   );
 };
 
-export default Editor;
+export default EditorContainer;
