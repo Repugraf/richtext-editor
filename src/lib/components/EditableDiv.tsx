@@ -5,6 +5,7 @@ const Div = styled.div`
   border: 1px solid gray;
   min-height: 200px;
   padding: 5px;
+  outline: none;
 `;
 
 interface Props {
